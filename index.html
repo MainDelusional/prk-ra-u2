@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2. Uzdevums</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body style="color: #111;">
+    <div id="big_div">
+
+      <p id="question_paragraph"></p>
+      <div id="selection">
+        <form>
+          <input class="option" type="radio" id="option_1" name="quiz" value="1">
+          <label id="option1" for="option_1">1</label><br>
+
+          <input class="option" type="radio" id="option_2" name="quiz" value="2">
+          <label id="option2" for="option_2">2</label><br>
+
+          <input class="option" type="radio" id="option_3" name="quiz" value="3">
+          <label id="option3" for="option_3">3</label><br>
+
+          <input class="option" type="radio" id="option_4" name="quiz" value="4">
+          <label id="option4" for="option_4">4</label><br>
+
+        </form>
+      </div>
+
+      <div>
+        <button onclick="confirm()" id="confirm" class="option_button">Confirm</button>
+        <button onclick="reset()" id="reset" class="option_button">Reset</button>
+        <button onclick="next()" id="next" class="option_button">Next</button>
+      </div>
+      <script src="scripts.js"></script>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,38 @@
+#selection{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background: #222222;
+}
+
+.option{
+  border: 4px solid #111111;
+}
+
+.option_button{
+  background: #8CAAEE;
+  width: 32%;
+  border-radius: 5px;
+}
+
+#test {
+}
+
+#big_div {
+  margin: auto;
+  border: 3px solid #A6D189;
+  border-radius: 5px;
+  width: 70%;
+}
+
+#big_div > *{
+  padding: 5px;
+}
+
+* {
+  font-family: Rubik;
+  color: #FFF;
+}
+
